@@ -1,6 +1,6 @@
 BunqChat
 =======================
-BunqChat is a simple chat application (FE) built using the React library and utilizing React Hooks.The application leverages a REST API. The FE polls every 3 seconds to get new messages. If after the first minute of polling there's no new message, the poll time is doubled and FE polls every 6 mins. While polling, if a new message comes in, the poll time is reduced back to 3 seconds. If there's no message activity for 15 mins, polling is stopped and the user would need to click on the `CHECK FOR NEW MESSAGES` to get new messages and resume polling.
+BunqChat is a simple chat application (FE) built using the React library and utilizing React Hooks.The application leverages a REST API. The FE polls every 3 seconds to get new messages. If after the first minute of polling there's no new message, the poll time is doubled and FE polls every 6 seconds. While polling, if a new message comes in, the poll time is reduced back to 3 seconds. If there's no message activity for 15 mins, polling is stopped and the user would need to click on the `CHECK FOR NEW MESSAGES` to get new messages and resume polling.
 
 Features
 --------------
